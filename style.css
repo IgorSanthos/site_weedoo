@@ -1,0 +1,236 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-align: center;  
+}
+
+body {  width: 100%;
+        min-height: 100vh;
+        margin: 0;
+        padding: 5rem;
+        box-sizing: border-box;
+}
+
+:root {
+    font-size: 62.5%;
+    font-family: "Space Grotesk", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
+
+
+/*##########      MENU */
+
+li {
+    display: inline-block;
+    height: 7.2rem;
+    
+}
+
+a {
+    
+    margin-right: 2.4rem;
+    text-decoration: none;
+    font-size: 1.6rem;
+    font-weight: 400;
+    font-family: "Quicksand", sans-serif;
+    color: #000000;
+    line-height: 1.75rem;
+    
+}
+
+.menu{
+    height: 50px;
+    width: auto;
+    top: 80px;
+    left: 150px;
+    position:absolute;
+}
+
+
+
+
+h1 {
+    font-size: 50px;
+    font-weight: 400;
+    text-align: left;
+    
+}
+h2{
+    font-size: 38px;
+    font-weight: 400;
+    text-align: left;
+}
+
+h3 { font-size: 22px;
+    text-align: left;}
+
+.inicio p { font-size: 22px; }
+p {
+    font-size: 16px;
+    text-align: left;
+    
+}
+.inicio button {
+    background-color: #000000;
+    color: white;
+    border:none;
+    border-radius: 5px;
+    width: 120px;
+    height: 50px;
+    position:absolute;
+    top: 300px;
+    left: 0px;
+}
+
+
+
+
+/* ##### PAGINA 1  */
+.inicio{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    width: 100%;
+    height: 600px;
+    margin-top: 100px;
+}
+.esquerda{
+    margin-left: 100px;
+    position:absolute;
+    flex-direction: column;
+    align-items: center;
+    width: 40%;
+    height: 100%;
+    top: 0px;
+    left: 0px;    
+}
+
+.inicio img {
+    position:absolute;
+    top: 0px;
+    left: 50%;
+    height: 500px;
+    width: auto;
+}
+
+
+.desbloqueie{
+    background-color: #FFBF23;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    width: 1510px;
+    margin-left: -50px; 
+}
+
+.desbloqueie p {
+    width: 500px;
+    margin-left: 300px;
+}
+.desbloqueie h2 { width: 400px;
+margin-left: 60px;}
+
+
+/* ### produtos  */
+
+.produtos {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 20px; /* Espaçamento entre os quadros */
+    margin-top: 100px;
+}
+
+.subtexto {
+    padding-right: 900px;
+    text-align: left;
+}
+.produtos > div {
+    flex: 1;
+    /* min-width: 200px; Largura mínima dos quadros */
+    max-width: 250px; /* Largura máxima dos quadros para caber 4 lado a lado */
+    text-align: center;
+    margin-top: 100px;
+}
+.produtos img {
+    max-width: 250px;
+    height: auto;
+    border-radius: 5px;
+    border-style:solid;
+    margin-bottom: 40px;
+}
+
+
+.visao {
+    margin-top: 200px;
+    position: relative;
+    height: 500px;
+}
+
+.visao img {
+    position:absolute;
+    top: 0px;
+    left: 0px;
+    height: 500px;
+    width: auto;
+
+}
+
+.visao h2 {
+    position:absolute;
+    top: 100px;
+    width: 500px;
+    right: 0px;
+}
+
+.visao p {
+    position:absolute;
+    top:210px;
+    width: 500px;
+    right: 00px;
+}
+
+.contato{
+    position: relative;
+    height: 1020px;   
+}
+
+.contato h2{
+    position:absolute;
+    text-align: center;
+    top: 20px;
+    width: 700px;
+    left: 25%;
+}
+
+.contato button{
+    background-color: #000000;
+    color: white;
+    border:none;
+    border-radius: 5px;
+    width: 120px;
+    height: 50px;
+    position:absolute;
+    top: 250px;
+}
+.final{
+    height: 723px;
+    width: auto;
+    position: absolute;
+    top: 300px;
+    left: 0px;
+}
+
+footer {
+    padding: 20px;
+    background-color: #FFBF23;
+    height: 100px;
+    margin-bottom: 10px;
+    width: 1510px;
+    margin-left: -50px; 
+}
